@@ -53,6 +53,12 @@ Note that this starts an insecure deployment without authentication, open to all
 
 Now you can connect to the server with any [client](#clients). For example, using Python:
 
+
+First install the client:
+
+```bash
+pip install qdrant-client
+```
 ```python
 from qdrant_client import QdrantClient
 
